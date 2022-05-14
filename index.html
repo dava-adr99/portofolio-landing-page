@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dava Adriansyah</title>
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="shortcut icon" href="https://api.iconify.design/healthicons/ui-user-profile.svg?color=white" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaSrcipt -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Inconify Material -->
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <!-- Three JS Library -->
+    <script src="/node_modules/three/build/three.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><span class="iconify" data-icon="fluent:home-32-regular"></span></a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-black" href="#contact">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav> <!--End of Navbar-->
+    
+
+      <!-- Konten Home -->
+      <div class="container konten-home">
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <h1 class="h1-nama">I Am <span class="text-nama">Dava</span><br>Adriansyah</h1>
+            <h3 class="h3-describe pt-4">Vector Artis | Graphic Designer | UI UX Mobile Deisgner</h3>
+            <p style="width: 35rem !important" class="lead">Hi! I'm Dava, an active student at Banyuwangi State Polytechnic and a worker free in the field of graphic design. I like digital artwork especially the vector arts section and illustration</p>
+            <h3 class="h3-link pt-4"><a class="text-decoration-none text-black" href="#works">View Projects</a>  <span style="font-size: 12; color:grey;">or</span> <a class="text-decoration-none text-black" href="#contact">Contact Me</a></h3>
+            
+          </div>
+          <div class="col-md-4 box-bg">
+            <div class="img-konten">
+
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Konten About Me -->
+    <div class="konten-about-me pt-5 text-center">
+      <div class="container">
+        <h3 id="about-me" class="pt-4 text-center">About Me</h3>
+        <div style="margin-bottom: 100px;" class="container row">
+          <div class="col-md-4 ">
+            <canvas id="myCanvas">Browser anda tidak mendukung HTML canvas</canvas>
+          </div>
+          <div class="col-md-8 pt-3 ">
+            <p class="lead">Namaku Dava Adriansyah, aku salah satu vector artis yang berasal dari kota paling timur pulau Jawa yaitu Banyuwangi sekaligus owner dari d_vector_arts. Aku ingin menjadi seorang desainer grafis profesional dan Senior UI & UX Designer, maka dari itu aku menekuni dunia desain dan arts di mulai saat aku masuk Sekolah Menengah Kejuruan. Hobiku adalah membuat illustrasi digital dan nondigital, terkadang aku juga mencoba beberapa hal seperti memasak dan juga bermain game.</p>
+            <p class="lead">Karya yang kuhasilkan dalam dunia desain grafis sudah banyak, dan beberapa karyaku sudah diakui oleh beberapa orang ternama. Jika kalian tertarik kalian bisa mengunjungi <a href="http://dribbble.com/dava-adr99" target="_blank">dribbble</a>  ku untuk melihat hasil karya desain grafisku. </p>            
+          </div>
+        </div>
+        <div class="container row mr-4">
+          <div class="col-md-4 text-center">
+            <h3 class="about-title">04 <span>+</span>
+            </h3>
+            <p class="about-deskripsi">Years for Graphic Designer</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3 class="about-title">15 <span>+</span>
+            </h3>
+            <p class="about-deskripsi">Vector arts Projects</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3 class="about-title">24 <span>+</span>
+            </h3>
+            <p class="about-deskripsi">Graphic Design Projects</p>
+          </div>
+        </div>
+        <a href="/Assets/donwload/myportfolio.pdf" download><button style="width: 450px; height: 70px;" type="button" class="btn about btn-success" >Download CV</button></a>
+      </div>
+  </div>
+  
+  <!-- Konten Skills -->
+  <div class="konten-skills">
+    <div class="container">
+      <h3 id="skills" class=" mb-5 text-center">Skills</h3>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 box-skills text-center">
+          <span class="iconify skills-icons" data-icon="iconoir:design-pencil"></span>
+          <h3>Junior Graphic Designer</h3>
+          <p>Lebih dari 4 tahun pengalaman dan telah menyelesaikan lebih dari 25 desain digital</p>
+        </div>
+        <div class="col-lg-3 box-skills  text-center">
+          <span class="iconify skills-icons" data-icon="radix-icons:pencil-2"></span>
+          <h3>Profesional Vector Artis</h3>
+          <p>15 lebih karya vector arts yang terjual dan semuanya memiliki repons bagus dari pelanggan</p>
+        </div>
+        <div class="col-lg-3 box-skills  text-center">
+          <span class="iconify skills-icons" data-icon="fluent:fluid-16-regular"></span>
+          <h3>Basic Mobile UI/UX Deisgner</h3>
+          <p>Skill baru saat memasuki dunia universitas yang kemungkinan besar akan dikembangkan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Konten Works  -->
+  <div class="konten-works ">
+    <div class="container swiper-container">
+      <h3 id="works" class="pt-4 mb-5 text-center">Works</h3>
+      <div class="swiper-wrapper">
+        
+        <!-- project pertama -->
+        <div class="box-works row align-items-center swiper-slide">
+          <div class="col-lg-6">
+            <canvas id="3dCanvas"></canvas>
+          </div>
+          <div class="col-lg-6 pe-5">
+            <h1 class="h1-works h1-nama">3D Design</h1>
+            <h3 class="h3-works h3-link">Menggunakan Three JS</h3>
+            <p class="lead">Pengetahuan baru yang didapat diperkuliahan Grafika Komputer tentang pembuatan object 3D dengan bahasa pemrograman javascript dan menggunakan library three js. Disamping itu di dalam library tersebut juga terdapat method yang berfungsi membuat animasi secara live dengan interaksi dari user. Hal ini dapat membantu mengembangkan skill baru yaitu dalam pembuatan UI/UX design saya</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Konten Contact -->
+  <div class="konten-contact mb-5">
+    <div class="container">
+      <h3 id="contact" class="pt-4 mb-5 text-center">Contact</h3>
+      <div class="box-contact row ">
+        <div class="col-lg-6 mt-4 mb-4 px-4">
+          <h1 class="h1-contact">Need My Skills</h1>
+          <h3 class="h3-contact">you can contact me for any time. I will get back to you as soon i can!</h3>
+          <form>
+            <div class="mb-3 mt-4">
+              <label for="exampleInputName" class="form-label">Full Name</label>
+              <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="input-group mb-3">
+              <label for="exampleInputEmail1" class="form-label mt-3 me-3">Message</label>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <button class="btn contact text-white" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="col-lg-6 social-media px-4">
+          <h1 style="color: white;" class="h1-contact mt-5 ">Or you can find me on</h1>
+          <ul class="list-contact">
+            <li class="icon-contact">
+              <span class="iconify me-3" data-icon="akar-icons:instagram-fill"></span>
+              <a href="http://instagram.com/d_vector_arts" target="_blank" class="lead" rel="noopener noreferrer">@d_vector_arts</a>
+            </li>
+            <li class="icon-contact">
+              <span class="iconify me-3" data-icon="akar-icons:whatsapp-fill"></span><a href="https://wa.me/6287885448649" class="lead" target="_blank">+62 87885448649</a>
+              
+            </li>
+            <li class="icon-contact">
+              <span class="iconify me-3" data-icon="ci:mail"></span>
+              <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=davahanyanama@gmail.com" class="lead" target="_blank">davahanyanama@gmail.com</a>
+            </li>
+            <li class="icon-contact">
+              <span class="iconify me-3" data-icon="akar-icons:dribbble-fill"></span>
+              <a class="lead" href="http://dribbble.com/dava-adr99" target="_blank" >dribbble.com/dava-adr99</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Konten Footer -->
+  <footer class="text-center text-lg-start pt-4">
+    <!-- Copyright -->
+    <div class="text-center p-3 footer-konten">
+      © 2022 Copyright:
+      <a class="text-light text-decoration-none" href="index.html">Dava Adriansyah</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+    
+  <!-- SCROLL REVEAL JS -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="Assets/main.js"></script>
+</body>
+</html>
